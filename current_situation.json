@@ -1,0 +1,17 @@
+{
+  "widget_name": "CURRENT SITUATION",
+  "purpose": "Understand what the user needs help deciding right now.",
+  "input": {
+    "question": "What is happening right now?",
+    "user_situation": ""
+  },
+  "examples": [
+    "I'm hungry after college. I have ₹100 and 20 minutes.",
+    "I worked out yesterday and have only 15 minutes today.",
+    "I don't feel energetic today.",
+    "I want to eat pizza.",
+    "I only have rice, dal and eggs at home.",
+    "I have ₹80 for lunch."
+  ],
+  "instruction": "Analyze the user's current situation without judging the user."
+}
