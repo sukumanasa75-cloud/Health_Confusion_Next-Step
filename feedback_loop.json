@@ -1,0 +1,43 @@
+{
+  "widget_name": "FEEDBACK LOOP",
+  "purpose": "Learn from the user's experience and improve future recommendations.",
+  "inputs": {
+    "completed_action": "",
+    "user_feedback": ""
+  },
+  "feedback_options": [
+    "Too easy",
+    "Just right",
+    "Too difficult",
+    "Didn't like it",
+    "Couldn't complete it",
+    "Too expensive",
+    "Not convenient",
+    "Too filling",
+    "Not filling enough"
+  ],
+  "output": {
+    "title": "HOW DID IT FEEL?",
+    "selected_feedback": "",
+    "what_should_health_change_next_time": "",
+    "adaptation": {
+      "difficulty": "",
+      "cost": "",
+      "convenience": "",
+      "preference": "",
+      "portion": "",
+      "time": ""
+    },
+    "next_recommendation_instruction": ""
+  },
+  "recovery_message": {
+    "title": "RESET, DON'T RESTART.",
+    "message": "Today didn't go as planned. Let's find one realistic action you can still complete.",
+    "options": [
+      "5-minute walk",
+      "Simple dinner choice",
+      "Hydration",
+      "10-minute stretching"
+    ]
+  }
+}
