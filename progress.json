@@ -1,0 +1,28 @@
+{
+  "widget_name": "MY HEALTH PROGRESS",
+  "purpose": "Track sustainable improvement and consistency.",
+  "time_period": "THIS WEEK",
+  "metrics": {
+    "nutrition": {
+      "score": 0,
+      "trend": ""
+    },
+    "movement": {
+      "score": 0,
+      "trend": ""
+    },
+    "hydration": {
+      "score": 0,
+      "trend": ""
+    },
+    "sleep": {
+      "score": 0,
+      "trend": ""
+    }
+  },
+  "overall_trend": "",
+  "next_milestone": "",
+  "completed_decisions": 0,
+  "successful_actions": 0,
+  "principle": "Focus on consistency and sustainable improvement rather than only weight."
+}
