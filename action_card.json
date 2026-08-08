@@ -1,0 +1,37 @@
+{
+  "widget_name": "ACTION CARD",
+  "purpose": "Convert a recommendation into a simple executable action.",
+  "inputs": {
+    "recommendation": "",
+    "category": ""
+  },
+  "categories": {
+    "food": {
+      "title": "YOUR NEXT STEP",
+      "meal": "",
+      "time_minutes": "",
+      "cost_inr": "",
+      "steps": [],
+      "action_button": "COMPLETE"
+    },
+    "fitness": {
+      "title": "YOUR NEXT STEP",
+      "workout_name": "",
+      "total_time_minutes": "",
+      "warm_up_minutes": 0,
+      "main_workout_minutes": 0,
+      "cool_down_minutes": 0,
+      "exercises": [],
+      "safety_note": "",
+      "action_button": "START WORKOUT"
+    },
+    "wellness": {
+      "title": "YOUR NEXT STEP",
+      "activity": "",
+      "duration_minutes": "",
+      "steps": [],
+      "action_button": "COMPLETE"
+    }
+  },
+  "principle": "Move the user from knowing to deciding to doing."
+}
