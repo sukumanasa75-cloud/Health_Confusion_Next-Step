@@ -1,0 +1,27 @@
+{
+  "widget_name": "CONTEXT ANALYZER",
+  "purpose": "Combine the user's profile and current situation before making a recommendation.",
+  "inputs": {
+    "user_profile": "",
+    "current_situation": "",
+    "previous_behaviour": "",
+    "user_feedback": ""
+  },
+  "analysis": {
+    "primary_goal": "",
+    "current_situation": "",
+    "time_constraint": "",
+    "budget_constraint": "",
+    "food_availability": "",
+    "energy_level": "",
+    "activity_context": "",
+    "preferences": "",
+    "health_restrictions": "",
+    "physical_limitations": "",
+    "available_equipment": "",
+    "previous_activity": "",
+    "important_considerations": "",
+    "potential_safety_considerations": "",
+    "decision_criteria": []
+  }
+}
