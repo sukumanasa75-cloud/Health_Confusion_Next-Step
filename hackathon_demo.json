@@ -1,0 +1,84 @@
+{
+  "project": {
+    "name": "HEALTH",
+    "tagline": "From Confusion → To the Right Next Step",
+    "description": "An AI-powered personalized health decision engine that converts a person's goals, lifestyle, constraints and real-time context into one practical next step, then learns from the outcome to make the next decision better."
+  },
+  "demo": {
+    "step_1_profile": {
+      "age": 24,
+      "occupation": "Student",
+      "primary_goal": "Better nutrition and fitness",
+      "activity_level": "Moderate",
+      "food_preference": "Vegetarian",
+      "daily_budget_inr": 150,
+      "fitness_level": "Beginner to intermediate"
+    },
+    "step_2_current_situation": {
+      "message": "I'm hungry after college. I have ₹80 and 15 minutes."
+    },
+    "step_3_context_analysis": {
+      "goal": "Better nutrition",
+      "budget": "₹80",
+      "time": "15 minutes",
+      "context": "Student",
+      "food_preference": "Vegetarian"
+    },
+    "step_4_recommendations": [
+      {
+        "rank": 1,
+        "title": "Vegetable poha + curd",
+        "cost": "₹50–₹65",
+        "time": "15 minutes",
+        "reason": "Affordable, filling, practical and suitable for the available time and budget."
+      },
+      {
+        "rank": 2,
+        "title": "Dal rice + vegetables",
+        "cost": "₹60–₹75",
+        "time": "15–20 minutes",
+        "reason": "A balanced and affordable option when ingredients are available."
+      },
+      {
+        "rank": 3,
+        "title": "Banana + curd + roasted chana",
+        "cost": "₹40–₹55",
+        "time": "5 minutes",
+        "reason": "Fastest option when the user has very limited time."
+      }
+    ],
+    "step_5_user_question": {
+      "question": "Why not noodles?",
+      "response_instruction": "Explain the trade-offs based on the user's goal, budget, time and preferences instead of calling noodles unhealthy."
+    },
+    "step_6_action": {
+      "selected_option": "Vegetable poha + curd",
+      "response": "Great. Let's make this your next step."
+    },
+    "step_7_completion": {
+      "status": "COMPLETED"
+    },
+    "step_8_feedback": {
+      "question": "How did it work for you?",
+      "options": [
+        "Too filling",
+        "Just right",
+        "Didn't like it",
+        "Too expensive",
+        "Not convenient"
+      ]
+    },
+    "step_9_adaptation": {
+      "purpose": "Use the feedback to improve the next recommendation."
+    }
+  },
+  "journey": [
+    "CONFUSION",
+    "UNDERSTANDING",
+    "DECISION",
+    "ACTION",
+    "FEEDBACK",
+    "PERSONALIZATION",
+    "NEXT RIGHT STEP"
+  ]
+}
