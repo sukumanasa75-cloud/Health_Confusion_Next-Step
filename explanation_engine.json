@@ -1,0 +1,38 @@
+{
+  "widget_name": "EXPLANATION ENGINE",
+  "purpose": "Explain why HEALTH selected a particular recommendation.",
+  "inputs": {
+    "recommended_option": "",
+    "user_goal": "",
+    "budget": "",
+    "available_time": "",
+    "food_preference": "",
+    "available_resources": "",
+    "previous_behaviour": "",
+    "current_context": ""
+  },
+  "output": {
+    "title": "WHY THIS?",
+    "explanation": "",
+    "factors": {
+      "goal": "",
+      "budget": "",
+      "time": "",
+      "preference": "",
+      "availability": "",
+      "previous_behaviour": "",
+      "current_context": ""
+    },
+    "health_fit_score": {
+      "total": 0,
+      "label": "",
+      "goal_fit": 0,
+      "budget_fit": 0,
+      "time_fit": 0,
+      "preference_fit": 0,
+      "availability_fit": 0,
+      "note": "This is a decision-support score, not a medical score."
+    },
+    "one_small_improvement": ""
+  }
+}
