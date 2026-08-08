@@ -1,0 +1,31 @@
+{
+  "widget_name": "USER PROFILE",
+  "purpose": "Create a concise personalized health profile.",
+  "inputs": {
+    "age": "",
+    "gender": "",
+    "height_cm": "",
+    "weight_kg": "",
+    "primary_health_goal": "",
+    "activity_level": "",
+    "fitness_level": "",
+    "food_preference": "",
+    "food_allergies_or_restrictions": "",
+    "daily_budget_inr": "",
+    "available_time_minutes": "",
+    "health_restrictions": "",
+    "available_equipment": "",
+    "preferred_activities": "",
+    "typical_eating_pattern": ""
+  },
+  "output_format": {
+    "title": "MY HEALTH PROFILE",
+    "goal": "",
+    "activity": "",
+    "food_preference": "",
+    "budget": "",
+    "available_workout_time": "",
+    "preferred_activity": "",
+    "important_constraints": ""
+  }
+}
