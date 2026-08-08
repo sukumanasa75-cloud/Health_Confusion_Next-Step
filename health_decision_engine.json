@@ -1,0 +1,51 @@
+{
+  "widget_name": "HEALTH DECISION ENGINE",
+  "purpose": "Identify and rank the most appropriate next action for the user.",
+  "core_principle": "Do not simply provide generic health information. Identify the most realistic and useful next step for this person right now.",
+  "decision_framework": [
+    "Is it right for the person?",
+    "Is it aligned with the person's goal?",
+    "Is it realistic right now?",
+    "Is it safe within known constraints?",
+    "What is the smallest useful action the person can take?"
+  ],
+  "inputs": {
+    "user_profile": "",
+    "current_situation": "",
+    "context_analysis": "",
+    "previous_behaviour": "",
+    "feedback": ""
+  },
+  "ranking_factors": {
+    "goal_fit": 0,
+    "budget_fit": 0,
+    "time_fit": 0,
+    "preference_fit": 0,
+    "availability": 0,
+    "practicality": 0,
+    "safety": 0
+  },
+  "output": {
+    "best_next_step": {
+      "title": "",
+      "description": "",
+      "estimated_cost_inr": "",
+      "estimated_time_minutes": "",
+      "reason": ""
+    },
+    "good_alternative": {
+      "title": "",
+      "description": "",
+      "estimated_cost_inr": "",
+      "estimated_time_minutes": ""
+    },
+    "fastest_or_easiest_option": {
+      "title": "",
+      "description": "",
+      "estimated_cost_inr": "",
+      "estimated_time_minutes": ""
+    },
+    "if_less_time": "",
+    "if_less_money": ""
+  }
+}
